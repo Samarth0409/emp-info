@@ -1,0 +1,159 @@
+#include <iostream> 
+using namespace std; 
+  
+struct employee { 
+    string ename; 
+    int age, phn_no; 
+    int salary; 
+}; 
+  
+
+void display(struct employee emp[], int n) 
+{ 
+    cout << "Name\tAge\tPhone Number\tSalary\n"; 
+    for (int i = 0; i <= 20; i++) { 
+        cout << emp[i].ename << "\t" << emp[i].age << "\t"
+             << emp[i].phn_no << "\t" << emp[i].salary << "\n"; 
+    } 
+} 
+  
+
+int main() 
+{ 
+    int n = 20; 
+   
+    struct employee emp[n]; 
+  
+  
+    emp[0].ename = "Chirag"; 
+    emp[0].age = 24; 
+    emp[0].phn_no = 1234567788; 
+    emp[0].salary = 20000; 
+  
+   
+    emp[1].ename = "Arnav"; 
+    emp[1].age = 31; 
+    emp[1].phn_no = 1234567891; 
+    emp[1].salary = 56000; 
+  
+   
+    emp[2].ename = "Shivam"; 
+    emp[2].age = 33; 
+    emp[2].phn_no = 1100661111; 
+    emp[2].salary = 30500; 
+    
+    
+    emp[3].ename = "Tanay"; 
+    emp[3].age = 34; 
+    emp[3].phn_no = 1100661111; 
+    emp[3].salary = 30500; 
+  
+  
+    emp[4].ename = "Sivansh"; 
+    emp[4].age = 35; 
+    emp[4].phn_no = 1100661111; 
+    emp[4].salary = 30500; 
+    
+    
+    emp[5].ename = "Shreyas"; 
+    emp[5].age = 36; 
+    emp[5].phn_no = 1100661111; 
+    emp[5].salary = 30500; 
+    
+    
+    emp[6].ename = "Shobhan"; 
+    emp[6].age = 37; 
+    emp[6].phn_no = 1100661111; 
+    emp[6].salary = 30500; 
+    
+    
+    emp[7].ename = "umity rao"; 
+    emp[7].age = 38; 
+    emp[7].phn_no = 1100661111; 
+    emp[7].salary = 30500; 
+    
+    
+    emp[8].ename = "Sandhya"; 
+    emp[8].age = 39; 
+    emp[8].phn_no = 1100661111; 
+    emp[8].salary = 30500; 
+    
+    
+    emp[9].ename = "Shreya"; 
+    emp[9].age = 40; 
+    emp[9].phn_no = 1100661111; 
+    emp[9].salary = 30500; 
+    
+    
+    emp[10].ename = "Sarath"; 
+    emp[10].age = 41; 
+    emp[10]phn_no = 1100661111; 
+    emp[10].10alary = 30500; 
+    
+    
+    emp[11].ename ="Suresh"; 
+    emp[11].age = 42; 
+    emp[11].phn_no = 1100661111; 
+    emp[11].salary = 30500; 
+    
+    
+    emp[11].ename = "Saket"; 
+    emp[11].age = 43; 
+    emp[11].phn_no = 1100661111; 
+    emp[11].salary = 30500; 
+    
+    
+    emp[12].ename = "risav"; 
+    emp[12].age = 43; 
+    emp[12].phn_no = 1100661111; 
+    emp[12].salary = 30500; 
+    
+    
+    emp[13].ename = "Sachin"; 
+    emp[13].age = 44; 
+    emp[13].phn_no = 1100661111; 
+    emp[13].salary = 30500; 
+    
+    
+    emp[14].ename = "Samarth"; 
+    emp[14].age = 45; 
+    emp[14].phn_no = 1100661111; 
+    emp[14].salary = 30500; 
+    
+    
+    emp[15].ename = "Dhawan"; 
+    emp[15].age = 46; 
+    emp[15].phn_no = 1100661111; 
+    emp[15].salary = 30500; 
+    
+    
+    emp[16].ename = "Shikhar"; 
+    emp[16].age = 47; 
+    emp[16].phn_no = 1100661111; 
+    emp[16].salary = 30500; 
+    
+    
+    emp[17].ename = "Shivani"; 
+    emp[17].age = 48; 
+    emp[17].phn_no = 1100661111; 
+    emp[17].salary = 30500; 
+    
+    
+    emp[18].ename = "Shuvam"; 
+    emp[18].age = 49; 
+    emp[18].phn_no = 1100661111; 
+    emp[18].salary = 30500; 
+    
+     emp[19].ename = "kunal"; 
+    emp[19].age = 50; 
+    emp[19].phn_no = 1100661111; 
+    emp[19].salary = 30500; 
+    
+     emp[20]ame = "Harsh";
+     emp[20].age = 51; 
+    emp[20].phn_no = 1100661111; 
+    emp[20].salary = 30500;
+    display(emp, n); 
+  
+    return 0; 
+} 
